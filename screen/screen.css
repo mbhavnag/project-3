@@ -90,12 +90,31 @@ h2{
   font-size: 2em;
 }
 
-ul {
+.work-experience,
+.skills,
+.Education {
   text-align: center;
   padding-top: 0.625em;
   padding-bottom: 1.25em;
 }
 
 footer{
+  padding-top: 2.5em;
+  padding-bottom: 0.625em;
+}
+
+p{
+  padding-top: 0.625em;
+  padding-bottom: 1.25em;
+}
+
+.interest{
+  text-align: left;
+  padding-top: 0.625em;
+  padding-bottom: 1.25em;
+}
+
+h3{
+  text-decoration: underline;
   padding-bottom: 0.625em;
 }
