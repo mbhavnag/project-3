@@ -33,3 +33,39 @@ img {
   max-width: 300px;
   max-height: 300px;
 }
+
+body {
+  padding-top: 2.667em; /* 66 / 18 = 3.667... */
+  padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
+  padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  /*box-shadow: 0 0.8em 0.4em rgba(0,0,0,0.26); /*The shadow of the navigation bar 14.4px down, 7.2px blur radius*/
+  box-sizing: border-box;
+}
+
+.nav a {
+  display: block;
+  text-align: center;
+  line-height: 1;
+  padding: 0.556em 0.278em; /* ~ 10px 5px @ 18px/em */
+  background-color: #38610B ;
+  color: white;
+  border-bottom: 0;
+}
+
+.nav li {
+  display: block;
+  float: left;
+  width: 50%;
+  list-style-type: none;
+  padding-bottom: 0;
+}
+
+.nav a:hover {
+  background-color: gray;
