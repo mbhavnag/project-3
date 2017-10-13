@@ -114,7 +114,12 @@ p{
   padding-bottom: 1.25em;
 }
 
+.name{
+  text-align: center;
+  font-size: 1.5em;
+}
+
 h3{
-  text-decoration: underline;
-  padding-bottom: 0.625em;
+    text-decoration: underline;
+    padding-bottom: 0.625em;
 }
