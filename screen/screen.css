@@ -27,33 +27,33 @@ body {
   background-color: #0B614B;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 2em; /* 36 / 18 = 2*/
   padding-top: 0.625em; /* 11.25 / 18 = 0.625 */
   padding-bottom: 1.25em; /* 22.5 / 18 = 1.25*/
 }
 
-h2{
+h2 {
   background-color: #0B3B2E;
   font-size: 1.5em; /* 27 / 18 = 1.5*/
 }
 
-h3{
-    padding-bottom: 0.625em;/* 11.25 / 18 = 0.625 */
+h3 {
+  padding-bottom: 0.625em;/* 11.25 / 18 = 0.625 */
 }
 
-ul{
+ul {
   padding-top: 0.625em;/* 11.25 / 18 = 0.625 */
   padding-bottom: 1.25em; /* 22.5 / 18 = 1.25*/
 }
 
-p{
+p {
   padding-top: 0.625em;/* 11.25 / 18 = 0.625 */
   padding-bottom: 1.25em; /* 22.5 / 18 = 1.25*/
 }
 
-footer{
+footer {
   padding-top: 2.5em; /* 45 / 18 = 2.5*/
   padding-bottom: 0.625em;/* 11.25 / 18 = 0.625 */
 }
@@ -88,14 +88,16 @@ nav {
   display: block;
   float: left;
   width: 33.333%;
+  list-style-type: none;
+  padding-bottom: 0;
 }
 
-.name{
+.name {
   /*text-align: center;*/
   font-size: 1.5em;
 }
 
-main{
+main {
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 2.5em; /* 45 / 18 = 2.5*/
@@ -107,99 +109,76 @@ main{
 
 #resume,
 #my,
-#about{
-  display:flex;
-  flex-flow:wrap row;
+#about {
+  display: flex;
+  flex-flow: wrap row;
   justify-content: space-around;
 }
 
 #experience,
-#school{
-  width:40%;
-  height:auto;
+#school {
+  width: 40%;
+  height: auto;
 }
 
-#skill{
-  width:90%;
-  height:auto;
+#skill {
+  width: 90%;
+  height: auto;
+    order: 3;
 }
 
 #history,
-#interest{
-  width:50%;
-  height:auto;
+#interest {
+  width: 50%;
+  height: auto;
 }
 
 #image,
-#info{
-  width:40%;
-  height:auto;
+#info {
+  width: 40%;
+  height: auto;
 }
 
-#school{
-  order:1;
+#school {
+  order: 1;
 }
 
-#skill{
-  order:3;
-}
-
-#experience{
-  order:2;
-}
-
-#history{
-
-}
-
-#interest{
-
-}
-
-#image{
-
-}
-
-#info{
-
+#experience {
+  order: 2;
 }
 
 /* responsive media*/
 
-img{
+img {
   display: block;
   max-width: 85%;
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 41.6664em) {
   #school,
   #skill,
-  #experience{
+  #experience {
     flex: 1 0 90%;
-    height:auto;
+    height: auto;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 33.3336em) {
   #info,
-  #image{
+  #image {
     flex: 1 0 90%;
-    height:auto;
+    height: auto;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 30.5557em) {
   #history,
-  #interest{
+  #interest {
     flex: 1 0 90%;
-    height:auto;
+    height: auto;
   }
 }
 
 /* Modular Styles */
-.nav li {
-  list-style-type: none;
-  padding-bottom: 0;
-}
