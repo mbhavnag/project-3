@@ -98,8 +98,99 @@ h2{
   font-size: 1.5em;
 }
 
+main{
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2.5em;
+  padding-bottom: 1.75em;
+  background-color: #00802b;
+}
+
+#resume,
+#my,
+#about{
+  display:flex;
+  flex-flow:wrap row;
+  justify-content: space-around;
+}
+
+#experience,
+#school{
+  width:40%;
+  height:auto;
+}
+
+#skill{
+  width:90%;
+  height:auto;
+}
+
+#history,
+#interest{
+  width:50%;
+  height:auto;
+}
+
+#image,
+#info{
+  width:40%;
+  height:auto;
+}
+
+#school{
+  order:1;
+}
+
+#skill{
+  order:3;
+}
+
+#experience{
+  order:2;
+}
+
+#history{
+
+}
+
+#interest{
+
+}
+
+#image{
+
+}
+
+#info{
+
+}
+
+@media screen and (max-width: 750px) {
+  #school,
+  #skill,
+  #experience{
+    flex: 1 0 90%;
+    height:auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #info,
+  #image{
+    flex: 1 0 90%;
+    height:auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #history,
+  #interest{
+    flex: 1 0 90%;
+    height:auto;
+  }
+}
+
 .work-experience,
-.skills,
 .Education {
   padding-top: 0.625em;
   padding-bottom: 1.25em;
