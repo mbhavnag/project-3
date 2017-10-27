@@ -70,6 +70,7 @@ nav {
   background-color: #38610B ;
   color: white;
   border-bottom: 0;
+  text-decoration: none;
 }
 
 .nav li {
@@ -82,11 +83,19 @@ nav {
 
 .nav a:hover {
   background-color: gray;
+  text-decoration: underline;
+}
+
+h1{
+  text-align: center;
+  font-size: 2em;
+  padding-top: 0.625em;
+  padding-bottom: 1.25em;
 }
 
 h2{
   background-color: #0B3B2E;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .work-experience,
