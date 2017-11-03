@@ -156,7 +156,7 @@ img {
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 
-@media screen and (max-width: 41.6664em) {
+@media screen and (max-width: 41.66666666666666664em) {/* 750 / 18 = 41.66666666666666664 */
   #school,
   #skill,
   #experience {
@@ -165,7 +165,7 @@ img {
   }
 }
 
-@media screen and (max-width: 33.3336em) {
+@media screen and (max-width: 33.3336em) {/* 600 / 18 = 33.333333333333336 */
   #info,
   #image {
     flex: 1 0 90%;
@@ -173,7 +173,7 @@ img {
   }
 }
 
-@media screen and (max-width: 30.5557em) {
+@media screen and (max-width: 30.555555555555557em) {/* 550 / 18 = 30.555555555555557 */
   #history,
   #interest {
     flex: 1 0 90%;
