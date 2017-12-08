@@ -96,8 +96,19 @@ nav {
   background-color: gray;
 }
 
+.u-email {
+  color: white;
+}
+
+.p-tel {
+  color: white;
+}
+
+.git {
+  color: white;
+}
+
 .name {
-  /*text-align: center;*/
   font-size: 1.5em;
 }
 
