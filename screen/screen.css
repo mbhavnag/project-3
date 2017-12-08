@@ -58,8 +58,6 @@ footer {
   padding-bottom: 0.625em;/* 11.25 / 18 = 0.625 */
 }
 
-a:active {color: gray;}
-
 /* Layout Styles */
 
 nav {
@@ -84,6 +82,10 @@ nav {
 .nav a:hover {
   background-color: gray;
   text-decoration: underline;
+}
+
+.active {
+  background-color: gray;
 }
 
 .nav li {
