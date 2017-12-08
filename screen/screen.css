@@ -58,6 +58,8 @@ footer {
   padding-bottom: 0.625em;/* 11.25 / 18 = 0.625 */
 }
 
+a:active {color: gray;}
+
 /* Layout Styles */
 
 nav {
@@ -124,6 +126,10 @@ main {
   padding-bottom: 1.777em; /* 32 / 18 = 1.777*/
 }
 
+#contact-info li{
+  padding-top: .625em;
+}
+
 /* Flexbox */
 
 #resume,
@@ -175,7 +181,7 @@ img {
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 
-@media screen and (max-width: 41.66666666666666664em) {/* 750 / 18 = 41.66666666666666664 */
+@media screen and (max-width: 53.125em) {/* 850 / 16 = 53.125 */
   #school,
   #skill,
   #experience {
@@ -184,7 +190,7 @@ img {
   }
 }
 
-@media screen and (max-width: 33.3336em) {/* 600 / 18 = 33.333333333333336 */
+@media screen and (max-width: 46.875em) {/* 750 / 16 = 46.875 */
   #info,
   #image {
     flex: 1 0 90%;
@@ -192,7 +198,7 @@ img {
   }
 }
 
-@media screen and (max-width: 30.555555555555557em) {/* 550 / 18 = 30.555555555555557 */
+@media screen and (max-width: 40.625em) {/* 650 / 16 = 40.625 */
   #history,
   #interest {
     flex: 1 0 90%;
