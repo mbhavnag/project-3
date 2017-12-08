@@ -92,6 +92,11 @@ nav {
   padding-bottom: 0;
 }
 
+.nav  li.active {
+    color:green;
+    background-color: gray;
+}
+
 .active, a.active {
   background-color: gray;
 }
@@ -117,7 +122,6 @@ main {
   padding-right: 1em;
   padding-top: 2.5em; /* 45 / 18 = 2.5*/
   padding-bottom: 1.777em; /* 32 / 18 = 1.777*/
-  background-color: #00802b;
 }
 
 /* Flexbox */
